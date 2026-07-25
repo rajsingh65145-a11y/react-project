@@ -1,6 +1,6 @@
 import React from 'react'
 
-const App = () => {
+const Apps = () => {
   const submithandler=(e)=>{
     e.preventDefault()
     console.log("from submited")
@@ -16,6 +16,6 @@ const App = () => {
     </form>
     </div>
   )
-}
+} 
 
-export default App
+export default Apps
