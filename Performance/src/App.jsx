@@ -5,7 +5,7 @@ import {   useMemo, useState } from "react"
 const App = () => {
 
 const [expenses, setExpenses] = useState([
-        { title: "Food", amount: 500 },
+        { title: "Food", amount: 500 },  
         { title: "Rent", amount: 5000 }
     ]);
     const [darkMode, setDarkMode] = useState(false);
